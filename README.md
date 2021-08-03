@@ -1,4 +1,4 @@
-# NLP(Natural Language Processing)
+# RNN and TextMining
 ## RNN(Recurrent Neural Network) 循環神經網路
 * ### RNN範例-股價分析 (標的:Taiwan Semiconductor Manufacturing Company Limited (2330.TW))
 * ### 循環神經網絡（RNN）文本生成:
