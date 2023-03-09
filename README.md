@@ -1,17 +1,13 @@
 # RNN and TextMining
-## RNN（Recurrent Neural Network）リカレントニューラルネットワーク
-* ### RNNの例-株価分析（件名：Toyota Motor Corporation (7203.T)）
-* ### リカレントニューラルネットワーク（RNN）テキストの生成：
-文字ベースのRNNを使用してテキストを生成します。 吾輩は猫である のドキュメントをデータセットにします。 このデータ内の文字のシーケンスが与えられた場合、シーケンス内の次の文字を予測するようにモデルをトレーニングします。 モデルを繰り返し呼び出すことにより、より長いテキストシーケンスを生成できます。
-一部の文は文法規則に準拠していますが、ほとんどの文は無意味です。 このモデルは単語の意味を学習していません。次の点を考慮してください。
-> 1. このモデルは文字ベースです。 トレーニングの開始時に、モデルは単語を組み立てる方法を知りませんでした。あるいは、単語がテキストの単位であることさえ知りませんでした。
-> 2. このモデルは、テキストの小さなバッチ（バッチあたり100文字）でトレーニングされています。 それでも、このモデルは一貫した構造を持つより長いテキストシーケンスを生成できます。
+## Recurrent Neural Networks (RNN)
 
-## RNN(Recurrent Neural Network) 循環神經網路
-* ### RNN範例-股價分析 (標的:Taiwan Semiconductor Manufacturing Company Limited (2330.TW))
-* ### 循環神經網絡（RNN）文本生成:
-利用RNN實作文本分析。使用 三國演義 的文檔製成數據集。給定此數據中的一個字符序列，訓練一個模型以預測該序列的下一個字符。通過重複調用該模型，可以生成更長的文本序列。
-雖然有些句子符合語法規則，但是大多數句子沒有意義。這個模型尚未學習到單詞的含義，請考慮以下幾點：
-> 1. 此模型是基於字符的。訓練開始時，模型不知道如何拼成一個字詞，甚至不知道字詞是文本的一個單位。
-> 2. 此模型由小批次 （batch） 文本訓練而成（每批 100 個字符）。即便如此，此模型仍然能生成更長的文本序列，並且結構連貫。
+### Text analysis
+1. "I am a Cat" by Soseki Natsume
+2. "Romance of the Three Kingdoms" by Luo Guanzhong
+* Implement text analysis using Recurrent Neural Networks (RNN).Train a model to predict the next character in a given character sequence, and generate longer text sequences by repeatedly calling the model. Although some sentences may conform to grammatical rules, most of them do not have actual meaning. This will be a key point * for future breakthroughs in my work.
+* This model is character-based. At the beginning of training, the model does not know how to form a word, and does not even know that a word is a unit of text.
+* This model is trained on small batches of text (100 characters per batch). Despite this, the model is still able to generate longer text sequences that are structurally coherent.
 
+### Stock price analysis
+1. Stock price analysis- Toyota Motor Corporation (7203.T)
+2. Stock price analysis- Taiwan Semiconductor Manufacturing Company Limited (2330.TW)
